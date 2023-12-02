@@ -1,17 +1,16 @@
-# pong 1
-# Code with Mr Wagner
-# Your name
+# Pong1
+# Code with Mr Wargner
+# Your name 
 
-import time
 
-import pygame
-
+import pygame, time 
 pygame.init()
 
-# create a window
+
+# Create a window
 pygame.display.set_caption("Pong")
-screen = pygame.display.set_mode((800, 600))
+Screen = pygame.display.set_mode ((800,600))
 
 pygame.event.wait()
-time.sleep(6)
+time.sleep(3)
 pygame.quit()
